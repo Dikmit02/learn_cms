@@ -2,3 +2,5 @@ php artisan make:model Post -m
 php artisan make:model Category -m
 
 php artisan make:Controller CategoriesController --resource
+
+php artisan make:request CreateCategoryRequest
