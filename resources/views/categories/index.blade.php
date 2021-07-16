@@ -12,6 +12,7 @@
             <table class="table">
                 <thead>
                     <th>Name</th>
+                    <th></th>
                 </thead>
 
                 <tbody>
@@ -20,6 +21,10 @@
                         <td>
                             {{$category->name}}
                         </td>
+
+                        <td>
+                            <a href="{{route('categories.edit',$category->id)}}" class="btn btn-info btn-sm">Edit</a>
+                        </td>
                     </tr>
                     @endforeach
                 </tbody>
@@ -27,4 +32,4 @@
         </div>
     </div>
 </div>
-@endsection
+@endsection -->
